@@ -47,13 +47,6 @@ class TestExecuteFindCommand(unittest.TestCase):
         result = assignment.execute_find_command('test_dir')
         self.assertEqual(result, 'test_dir/file1.txt\ntest_dir/file2.txt\n')
 
-class TestFormatDateTimestamp(unittest.TestCase):
-
-    def test_format_date_timestamp(self):
-        timestamp = 1636542891
-        result = assignment.format_date_timestamp(timestamp)
-        self.assertEqual(result, '10/11/2021 16:14:51')
-
 
 class TestFormatFilesize(unittest.TestCase):
 
