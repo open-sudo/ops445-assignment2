@@ -126,7 +126,7 @@ Total: 5.5M
 ```
 ## Testing:
 Test cases are implemented in Check2.py that allows you to validate your work before submission. You may run a test case with a command such as:
-  ```python3 Check2.py -f TestParseFileDetails```
+  ```python3 CheckA2.py -f TestParseFileDetails```
   
 ## How It Works:
  - The parse_command_line_arguments function uses the argparse library to parse command-line arguments and returns the parsed arguments object.
